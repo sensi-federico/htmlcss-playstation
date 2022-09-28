@@ -7,6 +7,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: Arial;
+}
+
 img {
     max-width: 100%;
 }
@@ -88,6 +92,10 @@ img.returnal, img.clank {
     background-color: var(--red);
 }
 
+.container-slim {
+    max-width: 60%;
+    margin: auto;
+}
 
 
 /* #endregion utility */
@@ -208,7 +216,31 @@ img.returnal, img.clank {
 
 /* #region main */
 
+/* BREAK */
+
+.img_first_game, .img_second_game, .img_third_game {
+    height: 600px;
+    background-size: cover;
+}
+
+.img_first_game {
+    background-image: url("../img/jumbo-bg.png");
+}
+
+.img_second_game {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+}
+
 /* CONSOLE */
+
+.card_console_top img {
+    transition: all .2s ease 0s;
+}
+
+.card_console_top img:hover {
+    box-shadow: 10px 10px 15px black;
+    transform: scale(1.4);
+}
 
 .card_console_center h6 {
     line-height: 1.5rem;
@@ -227,16 +259,105 @@ img.returnal, img.clank {
     opacity: 1;
 }
 
+.btn_info {
+    transition: all .4s ease 0s;
+}
+
+.btn_info:hover {
+    transform: scale(1.2) ;
+}
+
+/* TAKES_TWO */
+
+.takes_two {
+    background-image: url("../img/it-takes-two-hero-banner-desktop.jpg");
+    background-size: cover;
+}
+
+.takes_logo {
+    width: 200px;
+}
+
+.takes_two h3 {
+    font-size: 30px;
+}
+
+.buy_now {
+    transition: all .4s ease 0s;
+}
+
+.buy_now:hover {
+    transform: scale(1.2);
+}
+
 /* NEWS */
 
 .crash, .tony {
     border-radius: 1rem;
 }
 
+.news img {
+    transition: all .3s ease 0s;
+}
+
+.news img:hover {
+    transform: scale(1.1);
+}
+
 /* EXPLORE */
 
 .card_explore h6 {
     line-height: 1.5rem;
+}
+
+.btn_scopri {
+    border: none;
+    padding: 0.7rem;
+    background-color: var(--blue);
+    color: white;
+    transition: all .4s ease 0s;
+}
+
+.btn_scopri:hover {
+    transform: scale(1.2);
+}
+
+/* PLAY_PLUS */
+
+.btn_plus {
+    transition: all .4s ease 0s;
+}
+
+.btn_plus:hover, .btn_now:hover {
+    transform: scale(1.2);
+    background-color: #2D64E6;
+    color: white;
+}
+
+/* SCONTI */
+
+.sconti img {
+    width: 400px;
+}
+
+/* PLAY_NOW */
+
+.psnow {
+    width: 400px;
+}
+
+.play_now h5 {
+    font-size: 17px;
+}
+
+.btn_now {
+    transition: all .4s ease 0s;
+}
+
+/* SOCIAL */
+
+.social img {
+    width: 150px;
 }
 
 /* #endregion main */
