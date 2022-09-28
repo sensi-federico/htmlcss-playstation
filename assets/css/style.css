@@ -335,6 +335,7 @@ img.returnal, img.clank {
 
 .btn_plus {
     transition: all .4s ease 0s;
+    margin-bottom: 1rem;
 }
 
 .btn_plus:hover, .btn_now:hover {
@@ -361,6 +362,7 @@ img.returnal, img.clank {
 
 .btn_now {
     transition: all .4s ease 0s;
+    margin-bottom: 1rem;
 }
 
 /* SOCIAL */
@@ -370,3 +372,24 @@ img.returnal, img.clank {
 }
 
 /* #endregion main */
+
+
+/* responsive */
+
+@media screen and (max-width: 577px) {
+
+    img.psnow_none {
+        display: none;
+    }
+
+    img.psplus_none {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 990px) {
+    
+    .lens, .login {
+        display: none;
+    }
+}
