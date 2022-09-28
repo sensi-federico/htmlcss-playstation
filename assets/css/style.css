@@ -81,6 +81,10 @@ img {max-width: 100%;}
     border: 1px solid black;
 }
 
+.debug .play_now {
+    background-color: chocolate;
+}
+
 .debug .card_play_now {
     background-color: brown;
     height: 350px;
