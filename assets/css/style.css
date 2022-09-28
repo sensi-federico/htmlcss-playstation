@@ -7,7 +7,88 @@
     box-sizing: border-box;
 }
 
-img {max-width: 100%;}
+img {
+    max-width: 100%;
+}
+
+.text-black {
+    color: black;
+}
+
+img.returnal, img.clank {
+    border-radius: 1.2rem;
+}
+
+:root {
+    --light: #D9DADC;
+    --grey-light: #BEBCBB;
+    --grey-dark: #898989;
+    --dark: #202020;
+    --darkness: #1F1F1F;
+    --blue-light: #499BDC;
+    --blue: #2D64E6;
+    --blue-dark: #00439C;
+    --darker: #161C3B;
+    --red: #CD3D0F;
+}
+
+.ms_bg-light {
+    background-color: var(--light);
+}
+
+.ms_bg-grey-light {
+    background-color: var(--grey-light);
+}
+
+.c-grey-light {
+    color: var(--grey-light);
+}
+
+.ms_bg-grey-dark {
+    background-color: var(--grey-dark);
+}
+
+.c-grey-dark {
+    color: var(--grey-dark);
+}
+
+.ms_bg-dark {
+    background-color: var(--dark);
+}
+
+.ms_bg-darkness {
+    background-color: var(--darkness);
+}
+
+.ms_bg-blue-light {
+    background-color: var(--blue-light);
+}
+
+.c-blue-light {
+    color: var(--blue-light);
+}
+
+.ms_bg-blue {
+    background-color: var(--blue);
+}
+
+.c-blue {
+    color: var(--blue);
+}
+
+.ms_bg-blue-dark {
+    background-color: var(--blue-dark);
+}
+
+.ms_bg-darker {
+    background-color: var(--darker);
+}
+
+.ms_bg-red {
+    background-color: var(--red);
+}
+
+
 
 /* #endregion utility */
 
@@ -127,7 +208,35 @@ img {max-width: 100%;}
 
 /* #region main */
 
-/* BREAK */
+/* CONSOLE */
 
+.card_console_center h6 {
+    line-height: 1.5rem;
+}
+
+.card_console_bottom img {
+    width: 150px;
+    border-bottom: 2px solid white;
+    padding-bottom: 2rem;
+    opacity: 0.5;
+}
+
+.card_console_bottom img:hover {
+    border-bottom: 2px solid var(--blue-light);
+    padding-bottom: 2rem;
+    opacity: 1;
+}
+
+/* NEWS */
+
+.crash, .tony {
+    border-radius: 1rem;
+}
+
+/* EXPLORE */
+
+.card_explore h6 {
+    line-height: 1.5rem;
+}
 
 /* #endregion main */
