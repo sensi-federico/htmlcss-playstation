@@ -7,6 +7,8 @@
     box-sizing: border-box;
 }
 
+img {max-width: 100%;}
+
 /* #endregion utility */
 
 
@@ -14,5 +16,114 @@
 /* #region debug */
 
 
+.debug .bottom_header {
+    background-color: blue;
+    height: 70px;
+}
+
+.debug .break {
+    background-color: aqua;
+    height: 500px;
+}
+
+.debug .card_console_top {
+    background-color: brown;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.debug .card_console_center {
+    background-color: brown;
+    height: 500px;
+    border: 1px solid black;
+}
+
+.debug .card_console_bottom {
+    background-color: brown;
+    height: 200px;
+    border: 1px solid black;
+}
+
+.debug .takes_two {
+    background-color: aqua;
+    height: 500px;
+}
+
+.debug .card_news {
+    background-color: brown;
+    height: 250px;
+    border: 1px solid black;
+}
+
+.debug .card_explore {
+    background-color: brown;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.debug .play_plus {
+    background-color: chocolate;
+}
+
+.debug .card_play_plus {
+    background-color: brown;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.debug .sconti {
+    background-color: darkolivegreen;
+}
+
+.debug .card_sconti{
+    background-color: brown;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.debug .card_play_now {
+    background-color: brown;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.debug .card_social {
+    background-color: brown;
+    height: 100px;
+    border: 1px solid black;
+}
+
+.debug .credits {
+    background-color: aqua;
+}
+
+.debug .big-card_footer {
+    background-color: brown;
+    height: 350px;
+    border: 1px solid black;
+}
+
+.debug .small_card_footer {
+    background-color: white;
+    height: 350px;
+    border: 1px solid black;
+}
+
 
 /* #endregion debug */
+
+/* #region header */
+
+.logo_sony {
+    width:80px;
+    height: 30px;
+}
+
+/* #endregion header */
+
+/* #region main */
+
+/* BREAK */
+
+
+/* #endregion main */
