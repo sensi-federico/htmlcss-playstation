@@ -248,7 +248,7 @@ img.returnal, img.clank {
 
 .card_console_top img:hover {
     box-shadow: 10px 10px 15px black;
-    transform: scale(1.4);
+    transform: translatey(-1rem);
 }
 
 .card_console_center h6 {
