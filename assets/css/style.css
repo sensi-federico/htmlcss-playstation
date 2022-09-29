@@ -207,6 +207,12 @@ img.returnal, img.clank {
 
 /* #region header */
 
+header {
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+
 .logo_sony {
     width:80px;
     height: 30px;
@@ -221,11 +227,58 @@ img.returnal, img.clank {
     margin-left: 1rem;
 }
 
+.dropdown {
+    position: static;
+}
+
+.dropdown_menu img {
+    width: 150px;
+    padding: 0.5rem 1rem;
+}
+
+.dropdown-menu {    
+    width: 50vw;
+    text-align: center;
+    background-color: var(--blue-light);
+}
+
+.dropdown-menu img {
+    width: 100px;
+}
+
+.dropdown-menu li div {
+    width: 200px;
+    border: 2px solid white;
+    padding: 0.5rem;
+}
+
+.dropdown-menu li div:hover {
+    border: 2px solid var(--grey-dark);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.dropdown-menu li a {
+    padding: 0.25rem 0.5rem;
+    text-decoration: none;
+}
+
+.dropdown-menu a::before {
+    content: "\2022"; 
+    color: var(--blue);
+    font-weight: bold;
+    padding: 0 0.5rem ;
+}
+
 /* #endregion header */
 
 /* #region main */
 
 /* BREAK */
+
+.break {
+    padding-top: 120px;
+}
 
 .img_first_game, .img_second_game, .img_third_game {
     height: 600px;
@@ -413,11 +466,25 @@ img.returnal, img.clank {
     img.psplus_none {
         display: none;
     }
+
 }
+
 
 @media screen and (max-width: 990px) {
     
     .lens, .login {
         display: none;
+    }
+
+    .takes_logo {
+        width: 150px;
+    }
+}
+
+@media screen and (min-width: 900px) {
+    
+
+    .w-carousel {
+        width: 300px;
     }
 }
