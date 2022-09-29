@@ -255,14 +255,22 @@ img.returnal, img.clank {
     line-height: 1.5rem;
 }
 
-.card_console_bottom img {
+.card_console_bottom .blocked {
     width: 150px;
     border-bottom: 2px solid white;
     padding-bottom: 2rem;
     opacity: 0.5;
 }
 
-.card_console_bottom img:hover {
+.card_console_bottom .sblocked {
+    width: 150px;
+    border-bottom: 2px solid white;
+    padding-bottom: 2rem;
+    border-bottom: 2px solid var(--blue-light);
+    padding-bottom: 2rem;
+}
+
+.card_console_bottom .blocked:hover {
     border-bottom: 2px solid var(--blue-light);
     padding-bottom: 2rem;
     opacity: 1;
@@ -373,6 +381,26 @@ img.returnal, img.clank {
 
 /* #endregion main */
 
+/* #region footer */
+
+.logo_play_footer {
+    width: 150px;
+}
+
+.credits a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo_sie {
+    width: 150px;
+}
+
+.credits p a{
+    text-decoration: underline;
+}
+
+/* #endregion footer */
 
 /* responsive */
 
